@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { useLocation } from 'react-router-dom';
 
 
 
@@ -49,22 +50,29 @@ const categories = [
 
 
 function NavItems() {
+    const [active, setActive] = useState([]);
+    const location = useLocation(); // obtenemos la ruta actual de la página
+
+
+
     return (
         <>
-            {categories.map((category) => (
-            <li>
+          {categories.map((category) => {
+            const isActive = location.pathname === `/categorias${category.slug}`; // comparamos la ruta actual con la ruta de la categoría
+
+            return (
+              <li className={`text-gray-500 transition hover:text-black ${isActive ? "text-red-500 font-semibold" : ""}`} key={category.id}>
                 <Link
-                    className="text-gray-500 transition hover:text-black"
-                    to={`/categorias${category.slug}`}
+                  className=""
+                  to={`/categorias${category.slug}`}
                 >
-                    {category.name}
+                  {category.name}
                 </Link>
-            </li>
-            )
-            )}
+              </li>
+            );
+          })}
         </>
-
-    )
-}
-
+      );
+    }
+    
 export default NavItems;

@@ -239,7 +239,7 @@ function Footer() {
             href="/"
             rel="noreferrer"
             target="_blank"
-            className="text-teal-700 transition hover:text-teal-700/75"
+            className="text-[#0D1950] transition hover:text-[#0D1950]"
           >
             <span className="sr-only">Facebook</span>
             <svg
@@ -262,7 +262,7 @@ function Footer() {
             href="/"
             rel="noreferrer"
             target="_blank"
-            className="text-teal-700 transition hover:text-teal-700/75"
+            className="text-[#D81919] transition hover:text-[#D81919]"
           >
             <span className="sr-only">Instagram</span>
             <svg
@@ -285,7 +285,7 @@ function Footer() {
             href="/"
             rel="noreferrer"
             target="_blank"
-            className="text-teal-700 transition hover:text-teal-700/75"
+            className="text-[#0D1950] transition hover:text-[#0D1950]"
           >
             <span className="sr-only">Twitter</span>
             <svg
@@ -306,7 +306,7 @@ function Footer() {
             href="/"
             rel="noreferrer"
             target="_blank"
-            className="text-teal-700 transition hover:text-teal-700/75"
+            className="text-[#D81919] transition hover:text-[#D81919]"
           >
             <span className="sr-only">GitHub</span>
             <svg
@@ -329,7 +329,7 @@ function Footer() {
             href="/"
             rel="noreferrer"
             target="_blank"
-            className="text-teal-700 transition hover:text-teal-700/75"
+            className="text-[#0D1950] transition hover:text-[#0D1950]"
           >
             <span className="sr-only">Dribbble</span>
             <svg
