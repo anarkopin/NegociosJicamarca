@@ -22,8 +22,6 @@ function Navbar() {
                     <div className="hidden md:block">
                         <nav aria-label="Site Nav">
                         <ul className="flex items-center gap-6 text-sm lg:text-lg">
-                            
-
                         </ul>
                         </nav>
                     </div>

@@ -2,6 +2,10 @@ import { Helmet } from "react-helmet-async"
 import Navbar from "../../components/navigation/Navbar";
 import IndexLayout from "../../hocs/layouts/IndexLayout";
 import BannerCarousel from "../../components/slider/BannerCarousel";
+import CardCollection from "../../components/subcategories/CardCollection";
+import CardCategories from "../../components/categories/CardCategories";
+import TitlePrincipal from "../../components/titles/TitlePrincipal";
+import Services from "../../components/services/Services";
 
 
 
@@ -37,6 +41,11 @@ function Index() {
             <div className="relative h-full">
                 <BannerCarousel />
             </div>
+            <CardCollection />
+            <div className="relative h-full">
+                <CardCategories />
+            </div>
+            <Services />
         </IndexLayout>
     )
 }
