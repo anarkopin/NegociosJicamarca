@@ -20,3 +20,9 @@ Sin docker:
 >
 > instala las dependencias: pip install -r requirements.txt
 
+Configura tus variables de entorno 
+
+> python manage.py runserver
+
+
+
