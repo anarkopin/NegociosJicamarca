@@ -1,60 +1,20 @@
 # Título del Proyecto
 
-Breve descripción o introducción al proyecto.
+Negocios Jicamarca es una web donde distintos negocios se pueden publicitar para mejorar su presencia en linea, sera el escaparate digital de los empresarios que quieren generar un impacto en su exposicion al publico digital.
 
 ## Instalación
 
-Explica los pasos necesarios para instalar y configurar el proyecto. Incluye requisitos previos, dependencias y comandos específicos.
+Clonate la rama:
 
-## Uso
+> git clone https://github.com/anarkopin/NegociosJicamarca.git
 
-Proporciona ejemplos o instrucciones detalladas sobre cómo utilizar el proyecto. Puedes incluir capturas de pantalla o fragmentos de código para ilustrar su funcionamiento.
+Si utilizas docker, clonate la rama desarrollo y escribe:
 
-## Contribución
+> docker-compose up --build
 
-Indica cómo los colaboradores pueden contribuir al proyecto. Incluye pautas para enviar pull requests y establece expectativas sobre el proceso de revisión y fusión de cambios.
+Sin docker:
 
-## Estructura de archivos
-
-Describe la estructura de archivos y directorios del proyecto. Explica el propósito de cada componente y cómo interactúan entre sí.
-
-## Créditos
-
-Agradece y menciona cualquier recurso, biblioteca o contribución externa que hayas utilizado en el proyecto.
-
-## Licencia
-
-Especifica la licencia bajo la cual se distribuye el proyecto. Asegúrate de cumplir con las regulaciones y directrices correspondientes.
-
-## Contacto
-
-Proporciona información sobre cómo contactarte, ya sea para consultas, problemas o colaboraciones adicionales.
-
-## Estado del proyecto
-
-Incluye un distintivo (badge) que muestre el estado actual del proyecto, como el estado de compilación, las pruebas pasadas, etc.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> Crea tu entorno virtual: python -m venv env
+> Activa tu entorno virtual
+> instala las dependencias: pip install -r requirements.txt
 
