@@ -15,6 +15,8 @@ Si utilizas docker, clonate la rama desarrollo y escribe:
 Sin docker:
 
 > Crea tu entorno virtual: python -m venv env
+>
 > Activa tu entorno virtual
+>
 > instala las dependencias: pip install -r requirements.txt
 
